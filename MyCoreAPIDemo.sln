@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.168
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyCoreAPIDemo", "MyCoreAPIDemo\MyCoreAPIDemo.csproj", "{B188C5A5-0E80-49A6-91D4-AA54CCBAE5BC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyCoreAPIDemo", "MyCoreAPIDemo\MyCoreAPIDemo.csproj", "{B188C5A5-0E80-49A6-91D4-AA54CCBAE5BC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataService", "DataService\DataService.csproj", "{87F9B52F-386D-4F4D-8BC0-DFEC53329345}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataService", "DataService\DataService.csproj", "{87F9B52F-386D-4F4D-8BC0-DFEC53329345}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyCoreAPIDemoTest", "MyCoreAPIDemoTest\MyCoreAPIDemoTest.csproj", "{90A1B004-3C7D-4C7E-8D7C-75776D333088}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{87F9B52F-386D-4F4D-8BC0-DFEC53329345}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{87F9B52F-386D-4F4D-8BC0-DFEC53329345}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{87F9B52F-386D-4F4D-8BC0-DFEC53329345}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90A1B004-3C7D-4C7E-8D7C-75776D333088}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90A1B004-3C7D-4C7E-8D7C-75776D333088}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90A1B004-3C7D-4C7E-8D7C-75776D333088}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90A1B004-3C7D-4C7E-8D7C-75776D333088}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
